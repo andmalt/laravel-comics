@@ -3,23 +3,23 @@
 return  [
             [
                 'text'=> "Characters",
-                'route'=>'characters',
+                'route' => "characters",
             ],
             [
                 'text'=> "Comics",
-                'route'=>'comics',
+                'route' =>'comics',
             ],
             [
                 'text'=> "Movies",
-                'route'=>'movies',
+                'route'=> 'movies',
             ],
             [
                 'text'=> "Tv",
-                'route'=>'tv',
+                'route'=> 'tv',
             ],
             [
                 'text'=> "Games",
-                'route'=>'games',
+                'route'=> 'games',
             ],
             [
                 'text'=> "Collectibles",
