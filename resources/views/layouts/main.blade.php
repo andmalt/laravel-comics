@@ -10,7 +10,7 @@
 </head>
 <body>
     @include('partials.header',['links' => config('header_main_menu')])
-    
+    @include('partials.jumbotron')
     <main>
         @yield('main')
     </main>

@@ -26,9 +26,6 @@ header{
                 border-bottom: 4px solid $logoColor;
                 
             }
-            &:hover{
-                background-color: lighten($logoColor,30%)
-            }
             
             & a{
                 text-decoration: none;

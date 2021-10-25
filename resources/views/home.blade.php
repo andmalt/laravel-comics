@@ -5,9 +5,6 @@
 @section('main')
 
 
-<section id="jumbotron">
-</section>
-
 @foreach ($comicsArr as $el)
     <div class="box-dc">
         <img src="{{ $el['thumb'] }}" alt="">
