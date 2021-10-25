@@ -17,6 +17,21 @@ main{
         font-weight: 600;
     }
 }
+.box-dc{
+    flex-basis: calc(100% / 6 - 8px);
+    height: 280px;
+    margin: 4px;
+    text-align: center;
+    & img{
+        height: 85%;
+    }
+    & h6{
+        font-size: 1rem;
+        font-weight: 600;
+        color: $fontMain;
+        font-family: $navFont;
+    }
+}
 #jumbotron{
     background-image: url();
     background-size: cover;

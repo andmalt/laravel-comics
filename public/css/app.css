@@ -34,6 +34,9 @@ header {
 #nav-h ul li.active {
   border-bottom: 4px solid #0c7cec;
 }
+#nav-h ul li:hover {
+  background-color: #97c9fa;
+}
 #nav-h ul li a {
   text-decoration: none;
   color: #1c1c1c;
@@ -65,6 +68,22 @@ main button {
   color: white;
   font-size: 0.8rem;
   font-weight: 600;
+}
+
+.box-dc {
+  flex-basis: calc(16.6666666667% - 8px);
+  height: 280px;
+  margin: 4px;
+  text-align: center;
+}
+.box-dc img {
+  height: 85%;
+}
+.box-dc h6 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+  font-family: "Alumni Sans";
 }
 
 #jumbotron {
