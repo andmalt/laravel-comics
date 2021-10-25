@@ -1,0 +1,156 @@
+@import url(https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap);@import url(https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500&display=swap);header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  z-index: 3;
+}
+
+#img-logo {
+  width: 60px;
+}
+#img-logo img {
+  width: 100%;
+}
+
+#nav-h {
+  text-align: center;
+}
+#nav-h ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+#nav-h ul li {
+  padding: 2.5rem 1rem;
+  border-bottom: 4px solid transparent;
+}
+#nav-h ul li.active {
+  border-bottom: 4px solid #0c7cec;
+}
+#nav-h ul li a {
+  text-decoration: none;
+  color: #1c1c1c;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1rem;
+  font-family: "Alumni Sans";
+  z-index: 5;
+}
+#nav-h ul li a:hover {
+  color: #0c7cec;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 10rem 1rem;
+  background-color: #1c1c1c;
+}
+main .btn-main {
+  margin: 1rem 0 0.5rem;
+}
+main button {
+  background-color: #0c7cec;
+  border: 2px solid #0c7cec;
+  padding: 0.5rem 2rem;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.columns {
+  margin: 0 0.7rem;
+}
+
+.btn-footer {
+  text-align: center;
+  display: inline-block;
+}
+.btn-footer button {
+  background-color: #303030;
+  padding: 0.7rem;
+  color: white;
+  border: 2px solid #0c7cec;
+  font-weight: 600;
+}
+.btn-footer button:hover {
+  background-color: #0c7cec;
+}
+
+.social {
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social h3 {
+  color: #0c7cec;
+  margin-right: 1rem;
+}
+.social ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.social ul li {
+  margin: 0.5rem;
+}
+
+#main-footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url(../assets/img/footer-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: top;
+  z-index: -5;
+  font-family: "Alumni Sans";
+  padding: 3rem;
+}
+
+#navs-f {
+  display: flex;
+  justify-content: space-around;
+}
+#navs-f h4 {
+  color: white;
+  padding: 0.5rem 0;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+#navs-f ul li {
+  list-style: none;
+  padding: 0.2rem 0;
+  z-index: 5;
+}
+#navs-f ul li a {
+  color: #919191;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+#img-bg-f {
+  width: 250px;
+  transform: scale(2);
+}
+#img-bg-f img {
+  width: 100%;
+}
+
+#footer-bottom {
+  background-color: #303030;
+  padding: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

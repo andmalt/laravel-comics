@@ -1,0 +1,19 @@
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 10rem 1rem;
+    background-color: $colorContent;
+    & .btn-main{
+        margin: 1rem 0 0.5rem;
+    }
+    & button{
+        background-color: $logoColor;
+        border: 2px solid $logoColor;
+        padding: 0.5rem 2rem;
+        color: $fontMain;
+        font-size: 0.8rem;
+        font-weight: 600;
+    }
+}

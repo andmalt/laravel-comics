@@ -1,0 +1,88 @@
+footer{
+    display: flex;
+    flex-direction: column;
+}
+.columns{
+    margin: 0 0.7rem;
+}
+.btn-footer{
+    text-align: center;
+    display: inline-block;
+    
+    & button{
+        background-color: $footerBottom;
+        padding: 0.7rem;
+        color: white;
+        border: 2px solid $logoColor;
+        font-weight: 600;
+        &:hover{
+            background-color: $logoColor;
+        }
+    }
+}
+.social{
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    & h3{
+        color: $logoColor;
+        margin-right: 1rem;
+    }
+    & ul {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        & li {
+            margin: 0.5rem;
+        };
+    }
+}
+#main-footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(../assets/img/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: top;
+    z-index: -5;
+    font-family: $navFont;
+    padding: 3rem;
+}
+
+#navs-f{
+    display: flex;
+    justify-content: space-around;
+    & h4{
+        color: $fontFooter;
+        padding: 0.5rem 0;
+        font-size: 1.4rem;
+        font-weight: 600;
+    }
+    & ul li{
+        list-style: none;
+        padding: 0.2rem 0;
+        z-index: 5;
+        & a{
+            color: rgb(145, 145, 145);
+            font-size: 1rem;
+            text-decoration: none;
+        }
+    }
+}
+#img-bg-f{
+    width: 250px;
+    transform: scale(2);
+    & img{
+        width: 100%;
+    }
+}
+#footer-bottom{
+    background-color: $footerBottom;
+    padding: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
