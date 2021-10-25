@@ -17,3 +17,13 @@ main{
         font-weight: 600;
     }
 }
+#jumbotron{
+    background-image: url();
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    & h1{
+        padding: 3rem;
+    }
+}
