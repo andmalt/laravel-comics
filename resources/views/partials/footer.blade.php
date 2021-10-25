@@ -1,1 +1,0 @@
-<h1>sono IL Footer</h1>

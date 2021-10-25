@@ -5,7 +5,9 @@
 
     <nav id="nav-h">
         <ul>
-            <li></li>
+            @foreach ($links as $link)
+            <li><a href="">{{ $link['text'] }}</a></li>
+            @endforeach
         </ul>
     </nav>
       
