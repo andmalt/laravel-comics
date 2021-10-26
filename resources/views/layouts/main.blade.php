@@ -15,7 +15,7 @@
         @yield('main')
     </main>
 
-    @include('partials.footer')
+    @include('partials.footer',['firstLink'=>config('footerFirst')],['secondLink'=>config('footerSecond')])
 
     <script src="{{ asset('js/app.js') }}"></script>
 </body>
