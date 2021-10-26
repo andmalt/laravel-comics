@@ -32,6 +32,11 @@ main{
         font-family: $navFont;
     }
 }
+#home-p,
+#characters{
+    color: white;
+    padding: 2rem;
+}
 #jumbotron{
     background-image: url(../images/jumbotron.jpg);
     background-size: cover;

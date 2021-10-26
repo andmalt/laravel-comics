@@ -3,7 +3,7 @@
 @section('title', 'characters')
 
 @section('main')
-<div>
-    i'am characters
+<div id="characters">
+   <h1>This is characters</h1> 
 </div>
 @endsection

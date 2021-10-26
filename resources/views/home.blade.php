@@ -4,17 +4,10 @@
 
 @section('main')
 
-
-@foreach ($comicsArr as $el)
-    <div class="box-dc">
-        <img src="{{ $el['thumb'] }}" alt="">
-        <h6>{{ $el['title'] }}</h6>
-    </div>
-@endforeach
-
-<div class="btn-main">
-    <button>LOAD MORE</button>
+<div id="home-p">
+    <h1>This is homepage</h1>
 </div>
+
 
 
 @endsection
