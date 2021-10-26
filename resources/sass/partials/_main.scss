@@ -1,4 +1,4 @@
-main{
+#main-m{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -47,4 +47,9 @@ main{
     & h1{
         padding: 3rem;
     }
+}
+#top-im{
+    height: 50px;
+    width: 100%;
+    background-color: $logoColor;
 }

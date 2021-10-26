@@ -25,6 +25,11 @@ Route::get('/comics', function () {
     $comics = config('comics');
     return view('comics', ['comicsArr'=>$comics]);
 })->name('comics');
+
+Route::get('/comic', function () {
+    return view('comic');
+})->name('comic');
+
 Route::get('/movies', function () {
     return view('movies');
 })->name('movies');

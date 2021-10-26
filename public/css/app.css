@@ -47,7 +47,7 @@ header {
   color: #0c7cec;
 }
 
-main {
+#main-m {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -55,10 +55,10 @@ main {
   padding: 3rem 10rem 1rem;
   background-color: #1c1c1c;
 }
-main .btn-main {
+#main-m .btn-main {
   margin: 1rem 0 0.5rem;
 }
-main button {
+#main-m button {
   background-color: #0c7cec;
   border: 2px solid #0c7cec;
   padding: 0.5rem 2rem;
@@ -99,6 +99,12 @@ main button {
 }
 #jumbotron h1 {
   padding: 3rem;
+}
+
+#top-im {
+  height: 50px;
+  width: 100%;
+  background-color: #0c7cec;
 }
 
 footer {
