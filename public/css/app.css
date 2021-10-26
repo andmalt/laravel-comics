@@ -84,11 +84,11 @@ main button {
 }
 
 #jumbotron {
+  background-image: url(../images/jumbotron.jpg);
+  background-size: cover;
+  background-position: top;
   width: 100%;
   text-align: center;
-}
-#jumbotron img {
-  width: 100%;
 }
 #jumbotron h1 {
   padding: 3rem;

@@ -33,9 +33,9 @@ main{
     }
 }
 #jumbotron{
-    img{
-        width: 100%;
-    }
+    background-image: url(../images/jumbotron.jpg);
+    background-size: cover;
+    background-position: top;
     width: 100%;
     text-align: center;
     & h1{

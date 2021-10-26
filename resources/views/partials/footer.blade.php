@@ -64,11 +64,11 @@
         <div class="social">
             <h3>FOLLOW US</h3>
             <ul>
-                <li><a href="#"><img src="../assets/img/footer-facebook.png" alt="logo facebook"></a></li>
-                <li><a href="#"><img src="../assets/img/footer-twitter.png" alt="logo twitter"></a></li>
-                <li><a href="#"><img src="../assets/img/footer-youtube.png" alt="logo youtube"></a></li>
-                <li><a href="#"><img src="../assets/img/footer-pinterest.png" alt="logo pinterest"></a></li>
-                <li><a href="#"><img src="../assets/img/footer-periscope.png" alt="logo periscope"></a></li>
+                <li><a href="#"><img src="{{asset('images/footer-facebook.png')}}" alt="logo facebook"></a></li>
+                <li><a href="#"><img src="{{asset('images/footer-twitter.png')}}" alt="logo twitter"></a></li>
+                <li><a href="#"><img src="{{asset('images/footer-youtube.png')}}" alt="logo youtube"></a></li>
+                <li><a href="#"><img src="{{asset('images/footer-pinterest.png')}}" alt="logo pinterest"></a></li>
+                <li><a href="#"><img src="{{asset('images/footer-periscope.png')}}" alt="logo periscope"></a></li>
             </ul>
         </div>
     </div>
