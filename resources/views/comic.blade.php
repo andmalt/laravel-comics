@@ -6,13 +6,13 @@
 
 <div id="top-im">
     <div id="img-comic">
-        <img src="" alt="">
+        <img src="{{ $comic['thumb'] }}" alt="{{ $comic['title'] }}">
     </div>
 </div>
 <div id="top-p">
     <div id="p-p">
-        <h3>Action Comic #1000</h3>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque accusantium blanditiis tempore pariatur ab suscipit vitae sunt beatae facere illum eos commodi vel velit nemo cum exercitationem, alias natus sapiente.</p>
+        <h3>{{ $comic['title'] }}</h3>
+        <p>{{ $comic['description'] }}</p>
     </div>
     <div id="p-img">
         <img src="{{ asset('images/adva.jpg') }}" alt="image adv">
@@ -20,6 +20,7 @@
 </div>
 
 <div id="bottom-p">
+    {{-- Talent Section --}}
     <div id="b-l">
         <h3>Talent</h3>
         <hr>
@@ -28,7 +29,11 @@
                 <h6>Art by: </h6>
             </div>
             <div class="p-b">
-                <p>prova, prova, prova, prova, prova, prova, prova</p>
+                <p>
+                    @foreach ($comic['artists'] as $artist)
+                        {{ $artist }},
+                    @endforeach
+                </p>
             </div>
         </div>
         <hr>
@@ -37,12 +42,16 @@
                 <h6>Written by: </h6>
             </div>
             <div class="p-b">
-                <p>prova, prova, prova, prova, prova, prova, prova</p>
+                <p>
+                    @foreach ($comic['writers'] as $writer)
+                        {{ $writer }},
+                    @endforeach
+                </p>
             </div>
         </div>
         <hr>
     </div>
-
+    {{-- Specs section --}}
     <div id="b-r">
         <h3>Specs</h3>
         <hr>
@@ -51,7 +60,7 @@
                 <h6>Series: </h6>
             </div>
             <div class="p-b">
-                <p>prova, prova, prova, prova</p>
+                <p>{{$comic['series']}} </p>
             </div>
         </div>
         <hr>
@@ -60,7 +69,7 @@
                 <h6>U.S. Price: </h6>
             </div>
             <div class="p-b">
-                <p>prova, prova, prova</p>
+                <p>{{ $comic['price'] }}</p>
             </div>
         </div>
         <hr>
@@ -69,7 +78,7 @@
                 <h6>On Sale Date: </h6>
             </div>
             <div class="p-b">
-                <p>prova, prova, prova,</p>
+                <p>{{ strtoupper($comic['sale_date']) }}</p>
             </div>
         </div>
         <hr>

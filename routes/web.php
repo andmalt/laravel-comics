@@ -27,7 +27,8 @@ Route::get('/comics', function () {
 })->name('comics');
 
 Route::get('/comic', function () {
-    return view('comic');
+    $comics = config('comics');
+    return view('comic',['comic'=>$comics[0]]);
 })->name('comic');
 
 Route::get('/movies', function () {
