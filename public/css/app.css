@@ -90,6 +90,7 @@ header {
 #characters {
   color: white;
   padding: 2rem;
+  background-color: black;
 }
 
 #jumbotron {
