@@ -66,6 +66,9 @@ header {
   font-size: 0.8rem;
   font-weight: 600;
 }
+#main-m a {
+  text-decoration: none;
+}
 
 .box-dc {
   flex-basis: calc(16.6666666667% - 8px);

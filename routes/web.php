@@ -26,9 +26,15 @@ Route::get('/comics', function () {
     return view('comics', ['comicsArr'=>$comics]);
 })->name('comics');
 
-Route::get('/comic', function () {
+Route::get('/comic/{id}', function ($id) {
     $comics = config('comics');
-    return view('comic',['comic'=>$comics[0]]);
+
+    if(is_numeric($id) && ($id < count($comics) && $id >= 0)){
+        $comic = $comics[$id];
+        return view('comic',['comic'=>$comic]);
+    }
+    abort('404');
+     
 })->name('comic');
 
 Route::get('/movies', function () {

@@ -78,7 +78,7 @@
                 <h6>On Sale Date: </h6>
             </div>
             <div class="p-b">
-                <p>{{ strtoupper($comic['sale_date']) }}</p>
+                <p>{{ $comic['sale_date'] }}</p>
             </div>
         </div>
         <hr>
