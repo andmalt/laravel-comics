@@ -19,4 +19,60 @@
     </div>
 </div>
 
+<div id="bottom-p">
+    <div id="b-l">
+        <h3>Talent</h3>
+        <hr>
+        <div class="ta_b">
+            <div class="t-b">
+                <h6>Art by: </h6>
+            </div>
+            <div class="p-b">
+                <p>prova, prova, prova, prova, prova, prova, prova</p>
+            </div>
+        </div>
+        <hr>
+        <div class="ta_b">
+            <div class="t-b">
+                <h6>Written by: </h6>
+            </div>
+            <div class="p-b">
+                <p>prova, prova, prova, prova, prova, prova, prova</p>
+            </div>
+        </div>
+        <hr>
+    </div>
+
+    <div id="b-r">
+        <h3>Specs</h3>
+        <hr>
+        <div class="ta_b">
+            <div class="t-b">
+                <h6>Series: </h6>
+            </div>
+            <div class="p-b">
+                <p>prova, prova, prova, prova</p>
+            </div>
+        </div>
+        <hr>
+        <div class="ta_b">
+            <div class="t-b">
+                <h6>U.S. Price: </h6>
+            </div>
+            <div class="p-b">
+                <p>prova, prova, prova</p>
+            </div>
+        </div>
+        <hr>
+        <div class="ta_b">
+            <div class="t-b">
+                <h6>On Sale Date: </h6>
+            </div>
+            <div class="p-b">
+                <p>prova, prova, prova,</p>
+            </div>
+        </div>
+        <hr>
+    </div>
+</div>
 @endsection
