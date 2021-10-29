@@ -8,15 +8,15 @@
     
         <div class="box-dc">
             <a href="{{route('comic', ['id'=> $loop->index])}}">
-                <img src="{{ $el['thumb'] }}" alt="">
+                <img src="{{ $el['thumb'] }}" alt="{{ $el['title'] }}">
                 <h6>{{ $el['title'] }}</h6>
             </a>  
         </div>
          
     @endforeach
 
-    <div class="btn-main">
-        <button>LOAD MORE</button>
+    <div >
+        <button class="btn_main">LOAD MORE</button>
     </div>
 
 </div>

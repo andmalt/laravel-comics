@@ -5,8 +5,13 @@
     align-items: center;
     padding: 3rem 10rem 1rem;
     background-color: $colorContent;
-    & .btn-main{
-        margin: 1rem 0 0.5rem;
+    & .btn_main{
+        margin: 2rem 0 0.5rem;
+        cursor: pointer;
+        &:hover{
+            background-color: darken($logoColor, 20%);
+            border:2px solid darken($logoColor, 20%);
+        }
     }
     & button{
         background-color: $logoColor;
