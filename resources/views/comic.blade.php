@@ -3,17 +3,19 @@
 @section('title', 'comic')
     
 @section('main')
-
+{{-- image of comic --}}
 <div id="top-im">
     <div id="img-comic">
         <img src="{{ $comic['thumb'] }}" alt="{{ $comic['title'] }}">
     </div>
 </div>
+{{-- title and description --}}
 <div id="top-p">
     <div id="p-p">
         <h3>{{ $comic['title'] }}</h3>
         <p>{{ $comic['description'] }}</p>
     </div>
+    {{-- image adv --}}
     <div id="p-img">
         <img src="{{ asset('images/adva.jpg') }}" alt="image adv">
     </div>
@@ -29,11 +31,11 @@
                 <h6>Art by: </h6>
             </div>
             <div class="p-b">
-                <p>
-                    @foreach ($comic['artists'] as $artist)
-                        {{ $artist }},
-                    @endforeach
-                </p>
+                <a class="a_l" href="#">
+                @foreach ($comic['artists'] as $artist)
+                    {{ $artist }},
+                @endforeach
+                </a>
             </div>
         </div>
         <hr>
@@ -42,11 +44,11 @@
                 <h6>Written by: </h6>
             </div>
             <div class="p-b">
-                <p>
+                <a class="a_l" href="#">
                     @foreach ($comic['writers'] as $writer)
                         {{ $writer }},
                     @endforeach
-                </p>
+                </a>
             </div>
         </div>
         <hr>
@@ -60,7 +62,7 @@
                 <h6>Series: </h6>
             </div>
             <div class="p-b">
-                <p>{{$comic['series']}} </p>
+                <a class="a_l" href="#">{{$comic['series']}} </a>
             </div>
         </div>
         <hr>

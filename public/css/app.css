@@ -258,6 +258,10 @@ footer {
 #bottom-p hr {
   color: rgba(245, 245, 245, 0.3);
 }
+#bottom-p .a_l {
+  text-decoration: none;
+  color: #0c7cec;
+}
 #bottom-p #b-l {
   margin-right: 0.5rem;
   display: flex;

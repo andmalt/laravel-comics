@@ -47,11 +47,16 @@
     hr{
         color: rgba(245, 245, 245, 0.3);
     }
+    .a_l{
+        text-decoration: none;
+        color: $logoColor;
+    }
     #b-l{
         margin-right: 0.5rem;
         display: flex;
         flex-direction: column;
         width: 50%;
+        
         h3{
             padding-bottom: 1rem;
         }
